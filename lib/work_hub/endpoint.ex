@@ -3,7 +3,7 @@ defmodule WorkHub.Endpoint do
   alias WorkHub.Conn
 
   import WorkHub.Parser, only: [parse: 1]
-  import WorkHub.Plugs, only: [log: 1, rewrite_path: 1, track: 1]
+  import WorkHub.Plugins, only: [log: 1, rewrite_path: 1, track: 1]
   import WorkHub.Router, only: [route: 1]
 
   def handle(request) do

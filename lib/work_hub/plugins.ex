@@ -1,4 +1,4 @@
-defmodule WorkHub.Plugs do
+defmodule WorkHub.Plugins do
   alias WorkHub.Conn
 
   def log(conn), do: IO.inspect(conn)
