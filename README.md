@@ -1,6 +1,6 @@
 # WorkHub
 
-**TODO: Add description**
+**Description: A web server project to learn Elixir**
 
 ## Installation
 
